@@ -26,6 +26,8 @@ const GifExpertApp = () => {
 
         <h1> GifExpertApp </h1>
 
+        <p> Mira mami estoy triunfando</p>
+
         <h2> Categorias </h2>
 
         <AddCategory onNewCategory = {category => addCategory(category) }/>
