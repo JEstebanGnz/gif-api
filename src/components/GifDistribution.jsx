@@ -1,4 +1,5 @@
-import React from 'react'
+import PropTypes from 'prop-types';
+
 
 export const GifDistribution = ({title, image}) => {
     
@@ -11,4 +12,11 @@ export const GifDistribution = ({title, image}) => {
 
     </div>
   )
+}
+
+GifDistribution.propTypes = {
+
+  title: PropTypes.string.isRequired,
+  image: PropTypes.string.isRequired
+
 }
